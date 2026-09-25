@@ -1,22 +1,36 @@
-# Qt
+# Qt build folders
 build-*/
+debug/
+release/
+x64/
+
+# Qt user files (переменные среды, пути, сессии)
 *.user
 *.user.*
 *.pro.user
 *.pro.user.*
+
+# Compiled objects
 *.o
 *.obj
+*.pdb
+*.ilk
+*.lib
+*.dll
 *.exe
-moc_*
-qrc_*
-ui_*
+
+# MOC, UIC, QRC
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# Makefiles
 Makefile
 Makefile.Debug
 Makefile.Release
-*.pdb
-*.ilk
-*.dll
-*.lib
-debug/
-release/
-.ipynb_checkpoints/
+
+# Temp/backup
+*~
+*.bak
+.DS_Store
+Thumbs.db
