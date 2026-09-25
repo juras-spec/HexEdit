@@ -1,0 +1,22 @@
+# Qt
+build-*/
+*.user
+*.user.*
+*.pro.user
+*.pro.user.*
+*.o
+*.obj
+*.exe
+moc_*
+qrc_*
+ui_*
+Makefile
+Makefile.Debug
+Makefile.Release
+*.pdb
+*.ilk
+*.dll
+*.lib
+debug/
+release/
+.ipynb_checkpoints/
