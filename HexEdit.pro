@@ -17,6 +17,7 @@ SOURCES += \
 HEADERS += \
     hexf.h \
     hexhighlighter.h \
+    hid.h \
     mainwindow.h
 
 FORMS += \
